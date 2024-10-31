@@ -1,3 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/qalisha-signature-script');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    @apply text-white
+}
+.code{
+    position: absolute;
+    right: 65%;
+    bottom: 22%;
+    font-size: 12rem;
+    color: orangered;
+    font-family: 'Qalisha Signature Script', sans-serif;
+}
+.textInput{
+    @apply bg-slate-300 rounded-md lg:px-4 lg:py-2 px-2 py-2 sm:w-8/12 w-8/12  outline-0 border-none placeholder:text-zinc-500 text-sm text-black
+}
+.buttonFilled{
+    @apply bg-zinc-900 lg:px-3 lg:py-3 sm:py-2 py-2 sm:px-2 px-2 sm:w-11/12 w-8/12 rounded-lg
+}
+.tasklist{
+    scrollbar-width: none;
+}
